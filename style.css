@@ -1,0 +1,155 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f4f7f6;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+/* Header */
+header {
+    background: #005f73;
+    color: #fff;
+    padding-top: 20px;
+    min-height: 70px;
+    border-bottom: #0a9396 3px solid;
+}
+
+header h1 {
+    float: left;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background: #0a9396;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.hero button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background: #e9d8a6;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.hero button:hover {
+    background: #ee9b00;
+    color: white;
+}
+
+/* Sections */
+.section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.bg-light {
+    background: #e0e1dd;
+}
+
+/* Cards (Team) */
+.cards-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 30%;
+    text-align: center;
+}
+
+.card h3 {
+    color: #005f73;
+}
+
+.card .role {
+    font-weight: bold;
+    color: #ae2012;
+    margin-bottom: 15px;
+}
+
+/* Facilities */
+.facilities-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.facility-item {
+    background: #fff;
+    padding: 15px 25px;
+    margin: 10px;
+    border-radius: 50px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    font-size: 18px;
+    font-weight: 500;
+    color: #005f73;
+}
+
+/* Footer */
+footer {
+    background: #2b2d42;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0 20px;
+}
+
+footer a {
+    color: #94d2bd;
+    text-decoration: none;
+    font-size: 20px;
+}
